@@ -114,40 +114,19 @@ Un **entorno virtual** es como una caja aislada donde puedes instalar librerías
 
 ---
 
-## 📦 4. Instalación de dependencias
+## 📦 4. Instalación de PySide6
 
-1. Asegúrate de que el **entorno virtual está activado**.
-2. Instala las librerías desde un archivo `requirements.txt` con:
-   ```sh
-   pip install -r requirements.txt
-   ```
-3. Si no tienes el archivo `requirements.txt`, instala las librerías manualmente:
-   ```sh
-   pip install flask django requests
-   ```
-4. Verifica que están instaladas:
-   ```sh
-   pip list
-   ```
+Con el entorno virtual activado, instala PySide6:
 
----
+```bash
+pip install PySide6
+```
 
-## 🚀 5. Ejecución de la aplicación
+Para verificar que se instaló correctamente, ejecuta:
 
-1. **Asegúrate de que el entorno virtual está activado**.
-2. Ejecuta tu aplicación:
-   ```sh
-   python app.py
-   ```
-3. Si usas `Flask`:
-   ```sh
-   flask run
-   ```
-4. Si usas `Django`:
-   ```sh
-   python manage.py runserver
-   ```
-5. Abre en el navegador `http://127.0.0.1:5000` o `http://127.0.0.1:8000`.
+```bash
+python -c "import PySide6; print('PySide6 instalado correctamente')"
+```
 
 ---
 
@@ -164,12 +143,10 @@ Un **entorno virtual** es como una caja aislada donde puedes instalar librerías
 
 ---
 
-## 🎯 Resumen rápido
+## 🎯 Resumen
 1. **Instalar Python** (`python --version` para verificar).
 2. **Instalar `pip`** (`pip --version` para verificar).
 3. **Crear y activar un entorno virtual** (`venv`).
-4. **Instalar dependencias** (`pip install -r requirements.txt`).
-5. **Ejecutar la aplicación** (`python app.py` o `flask run`).
+4. **Instalar dependencias**.
 
-Con esto ya puedes trabajar con Python de forma limpia y organizada en Windows o Ubuntu. 🚀
 
