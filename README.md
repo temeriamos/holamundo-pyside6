@@ -125,7 +125,7 @@ pip install PySide6
 Para verificar que se instaló correctamente, ejecuta:
 
 ```bash
-python -c "import PySide6; print('PySide6 instalado correctamente')"
+python -c "import PySide6; print('Hola Mundo')"
 ```
 
 ---
