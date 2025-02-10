@@ -1,0 +1,9 @@
+site_name: My Docs
+site_url: https://temeriamos.github.com/holamundo-pyside6.git
+docs_dir: 'docs_src'
+site_dir: 'docs'
+nav:
+  - Manual de usuario: Manual_De_Usuario.md
+  - Manual de Referencia: Manual_De_Referencia.md
+  - Guía de instalación: Manual_De_Instalacion.md
+theme: readthedocs
