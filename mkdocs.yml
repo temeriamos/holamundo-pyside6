@@ -8,6 +8,8 @@ nav:
   - Manual de usuario: Manual_De_Usuario.md
   - Manual de Referencia: Manual_De_Referencia.md
   - Guía de instalación: Manual_De_Instalacion.md
+  - PDF: PDF.md
+theme: material
 plugins:
   - search
   - pdf-export
@@ -15,7 +17,7 @@ plugins:
       author: 'Temeriamos'
       copyright: '2022'
       cover: true
-      back_cover: false
+      back_cover: true
       cover_title: 'My Docs'
       cover_subtitle: 'Manual de usuario'
       toc_title: 'Contenido'
