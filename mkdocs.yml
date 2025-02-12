@@ -23,4 +23,4 @@ plugins:
       toc_title: 'Contenido'
       toc_levels: 2
       ordered_chapters_level: 2
-      output_path: pdf/doc_holamundo-pyside6.pdf
+      output_path: pdf/documentacionCompleta.pdf
